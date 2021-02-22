@@ -64,6 +64,7 @@ i{
 }
 
 .guzik{
+    cursor: pointer;
     font-size: 13px;
     font-family: 'Lato', sans-serif;
     margin: 40px 7px;
