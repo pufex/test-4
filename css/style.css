@@ -4,7 +4,7 @@
 */
 
 html, body{
-    margin: 0;
+    margin: 0 0 0px 0;
     padding: 0;
 }
 
@@ -12,7 +12,21 @@ i{
     margin: 0 3px;
 }
 
-.kite{
+a{
+    text-decoration: blue;
+}
+
+a.email{
+    color: red;
+}
+
+a.email:hover{
+    color: rgb(136, 4, 4);
+}
+
+/* Plansza */
+
+.sheet{
     margin: 0 auto;
     height: 400px;
     width: 100%;
@@ -39,6 +53,43 @@ i{
     height: 100%;
 }
 
+/* Plansza */
+
+/* Artykuł */
+
+.article{
+    background-color: rgb(240, 240, 240);
+    padding: 0 0 150px 0;
+    box-sizing: border-box;
+}
+
+.paragraph{
+    padding: 10px 150px 10px 150px;
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+
+/* Artykuł */
+
+/* Stopka */
+
+.foot{
+    margin: 0 auto;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    background-color: #1e1e1e;
+}
+
+.foot-content{
+    margin: auto 0;
+}
+
+/* Stopka */
+
+/* Nagłówki */
+
 .main-header{
     letter-spacing: 1px;
     font-size: 50px;
@@ -47,13 +98,44 @@ i{
     color: white;
 }
 
-.paragraph{
+.header{
+    letter-spacing: 1px;
+    margin: 20px 2px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+    color: black
+}
+
+/* Nagłówki */
+
+/* Czionki */
+
+.main-font{
     text-decoration: none;
     font-size: 15px;
     font-weight: 400;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+
+.font{
+    font-weight: 300;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.font-footer{
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+/* Czionki */
+
+/* Ułożenie */
 
 .center{
     margin: 0 auto;
@@ -63,7 +145,24 @@ i{
     text-align: center;
 }
 
-.guzik{
+.wrap{
+    width: 49%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+/* Ułożenie */
+
+/* Guziki */
+
+.button-input{
+    cursor: pointer;
+    height: 20px;
+    width: 80px;
+    padding: 1px;
+}
+
+.button-normal{
     cursor: pointer;
     font-size: 13px;
     font-family: 'Lato', sans-serif;
@@ -76,7 +175,18 @@ i{
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.651);
 }
 
-.guzik:hover{
+.button-normal:hover{
     transform: scale(1.1);
     background-color: whitesmoke;
+}
+
+/* Guziki */
+
+.elephant-1{
+    display: block;
+    width: 300px;
+    margin: auto auto;
+    border: 0px solid rgba(0, 0, 0, 0.05);
+    border-radius: 15% 20%;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.651);
 }
